@@ -1,14 +1,13 @@
 
-# <%= title %>
+# Quarto Template for Exam Reports
 
 ## Creating a New Article
 
 To create a new article using this format:
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto use template <github-organization>/<%= filesafename %>
+quarto use template lescai-teaching/quarto_template_exam
 ```
 
 This will create a new directory with an example document that uses this format.
@@ -17,22 +16,17 @@ This will create a new directory with an example document that uses this format.
 
 To add this format to an existing document:
 
-*TODO*: Replace the `<github-organization>` with your GitHub organization.
 
 ```bash
-quarto add <github-organization>/<%= filesafename %>
+quarto add lescai-teaching/quarto_template_exam
 ```
 
 Then, add the format to your document options:
 
 ```yaml
 format:
-  <%= filesafename %>-pdf: default
+  quarto_template_exam-html: default
 ```    
-
-## Options
-
-*TODO*: If your format has options that can be set via document metadata, describe them.
 
 ## Example
 
