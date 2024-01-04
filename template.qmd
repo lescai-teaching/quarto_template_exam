@@ -1,0 +1,59 @@
+---
+title: Quarto Template for Exams
+format:
+  quarto_template_exam-html: default
+author:
+  - name: Name Surname
+    affiliations:
+      - name: University of Pavia
+        department: Department of Biology and Biotechnology
+        address: via Ferrata, 9
+        city: Pavia
+        country: Italy
+        postal-code: 27100
+    email: your.email@universitadipavia.it
+    url: https://example.org/
+abstract: |
+  This document is a template demonstrating the Quarto_template_exam format.
+keywords: [template, demo]
+bibliography: bibliography.bib  
+---
+
+# Introduction {#sec-intro}
+
+Explain here what the analysis is about and what the analysis workflow consists of.
+
+# Pre-processing
+
+Here describe the steps necessary to process raw data and extract the information you need for the analysis.
+
+This might include:
+
+```{bash}
+#| eval: false
+
+# this could be bash code
+```
+
+And also:
+
+```{r}
+#| eval: false
+
+# this could be R code
+```
+
+
+# Quality control
+
+Describe here any steps you took to assess the quality of the data.
+
+# Analysis
+
+Describe here the analysis you performed.
+
+
+# Conclusions
+
+Summarize here the results of the analysis.
+This should include the answer to the question you were given.
